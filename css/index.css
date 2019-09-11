@@ -1,3 +1,37 @@
+/*{
+     border:1px solid black;
+ }*/
+.top_bar{
+    width: 2000px;
+}
+.colL{
+    margin-left: 500px;
+}
+.nav-item{
+    width: 100px;
+}
+.colR{
+    margin-right: 600px;
+}
+.logo{
+    padding: 80px;
+    margin-left: 0px;
+}
+#navbarSupportedContent > ul > li:nth-child(3){
+    padding-left: 40px;!important;
+}
+.navbar .navbar-brand{
+    color: black;!important;
+}
+.navbar .navbar-nav li a{
+    color: black !important;
+}
+.navbar .navbar-nav li a:hover{
+    color: lightgreen !important ;
+}
+
+
+
 #carousel1 img{
     width: 1024px;
     height: 700px;
