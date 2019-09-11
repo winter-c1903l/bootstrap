@@ -10,11 +10,77 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/index.css">
 </head>
+<style>
+    /*{
+        border:1px solid black;
+    }*/
+    .top_bar{
+        width: 2000px;
+    }
+    .colL{
+        margin-left: 500px;
+    }
+    .nav-item{
+        width: 100px;
+    }
+    .colR{
+        margin-right: 600px;
+    }
+    .logo{
+        padding: 80px;
+        margin-left: 0px;
+    }
+    #navbarSupportedContent > ul > li:nth-child(3){
+        padding-left: 40px;!important;
+    }
+    .navbar .navbar-brand{
+        color: black;!important;
+    }
+    .navbar .navbar-nav li a{
+        color: black !important;
+    }
+    .navbar .navbar-nav li a:hover{
+        color: lightgreen !important ;
+    }
+
+
+</style>
 <body>
 
 <div class="container-fluid">
     <div class="top_bar">
-        <img src="img/navbar.png">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto colL">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#" >HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THE HOTEL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">ROOMS</a>
+                    </li>
+                </ul>
+                <a class="navbar-brand logo" href="#"><b><h3>WINTER</h3></b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <form class="form-inline my-2 my-lg-0 colR">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">BISTRO <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">BUY NOW</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </nav>
     </div>
     <div class="container text-center my-3">
         <div id="carousel1" class="carousel slide" data-ride="carousel" >
